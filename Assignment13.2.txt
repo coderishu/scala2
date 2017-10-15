@@ -1,0 +1,15 @@
+def square(n:Int):Unit={
+var y=1
+var x =n
+while(x - y> 0){
+x=(x+y) /2
+y = n/x
+}
+println(x)
+}
+square(10)
+
+output
+
+3
+square: (n:Int) Unit
